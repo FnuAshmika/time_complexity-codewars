@@ -101,6 +101,7 @@ def duplicate_count(text):
 O(n^2) -> quadratic	
 The time complexity of this function will be "O(n^2) quadratic" I think.
 Because it has nested 'for' loops and there are 2 iterations going on. 
+So, O(n) * O(n) -> O(n^2)
 """
 def in_array(array1, array2):
     result = []
